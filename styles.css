@@ -1,0 +1,64 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: wheat;
+}
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(254, 223, 247);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(5, 5, 5);
+  text-align: center;
+}
+.content h1 {
+  color: rgb(196, 93, 196);
+}
+.content h4 {
+  color: rgb(147, 146, 146);
+}
+.content table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.content table th,
+.content table td {
+  padding: 10px;
+  border: 1px solid rgb(94, 94, 94);
+}
+.content table th th,
+.content table td th {
+  background-color: #f0f0f0;
+  color: rgb(196, 93, 196);
+}
+.content a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: rgb(211, 173, 198);
+  color: #feffff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.content a:hover {
+  background-color: rgb(196, 93, 196);
+}
+.content input {
+  padding: 10px;
+  margin: 5px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+.content #btn_add {
+  background-color: rgb(109, 220, 107);
+  color: #3b6b40;
+  cursor: pointer;
+}
+.content #btn_add:hover {
+  background-color: rgb(72, 231, 109);
+}/*# sourceMappingURL=styles.css.map */
